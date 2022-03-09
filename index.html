@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Anu&Rishi's Wedding</title>
+    <link rel="stylesheet" type="text/css" href="theme.css"> 
+    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading">Anu&Rishi
+        <span class="heading-subtext"> Are getting married!</span>
+      </h1>
+    </header>
+    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a> 
+    <section class="section">
+      <h2 class="sub-heading">Overview</h2>
+      <p>Hindu weddings are vibrant, intricately planned, culture-rich festivities full of celebration and tradition. While the very essence of a Hindu wedding ceremony is the physical, spiritual, and emotional union of two people; it's also about the coming together of two families through prayer and celebration.
+        "A Hindu wedding lies somewhere between the couple’s expectations while blending their family traditions," explains South Asian wedding expert Jignasa Patel. "With many rituals and mini ceremonies leading to the main ceremony day, it binds the couple and both families for eternity."
+      </p>
+    </section>
+    <section class="section">
+      <h2 class="sub-heading">Save The Date</h2>
+      <div class="details">
+        <i class="fas fa-calendar-check"></i>
+        <p>march 10, 2022</p>
+        <h3>Anu & Rishi</h3>
+      </div>
+      <div class="details">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3 class="details-heading">Venue</h3>
+        <p><a rel="noopener" href="#">UTSAVA - MANTAPA</a>, banglore, karnataka</p>
+        <img class="resort-image" src="./img/resort.jpg" alt="Resort" />
+      </div>
+      <div class="details">
+        <h3 class="details-heading">Food</h3>
+        <p>At Kettering Conference Centre, we have hosted an array of Asian weddings in our time so are well versed in Indian food etiquette. 
+        Food is one of the most important parts of any wedding, and Indian food makes for one of the best wedding foods in the world! With an explosion of flavour, these finger-licking courses will go down a treat. We have outlined the 15 most common Indian wedding food dishes we have seen at our Indian wedding venue in Kettering. .</p>
+        <img class="resort-image" src="./img/food.jpg" alt="food" />
+        <p>A Big Fat Indian Wedding is incomplete without serving some finger-licking food to the honourable guests. Earlier a Halwai along with his team used to take care of the entire menu but recently professional wedding caterers have replaced them in the kitchen. Latest food trends with international dimensions and unique exhibits are sizzling up the wedding venues these days. Well, the new food format and exotic world cuisines are fine, but it is essential to keep our Indian palates satisfied with the desi lip-smacking food from the galis (streets) of India..</p><br><br><br>
+      </div>
+      <div class="details">
+        <h3 class="details-heading">in Hindu Wedding</h3>
+        <p>Nevertheless, there are a few key rituals common in Hindu weddings – Kanyadaan, Panigrahana, and Saptapadi; these are respectively, gifting away of daughter by the father, voluntarily holding hand near the fire to signify impending union, and taking seven steps before fire with each step including a set of mutual vows. After the seventh step and vows of Saptapadi, the couple is legally husband and wife.</p>
+        <img class="resort-image" src="./img/wedding.jpg" alt="wedding" />
+        <p>Magic sparkles father bridesmaid  champagne bouquet wedding mother. Magic first dancing fish chicken champagne debt mother guitar acoustic bass.</p>
+      </div>
+      <div class="details">
+        <i class="fas fa-asterisk"></i>
+        <h3 class="details-heading">Other Notes</h3>
+        <p>Your presence is the only present we desire No gift required.<br></p>
+      </div>
+      <div class="details">
+          <h2>THANK YOU</h2>
+          <p>Thank you for your acceptence and please spare your valuable time to our marriage function</p>
+      </div>
+      <div class="details">
+        <i class="fas fa-reply"></i>
+        <h3 class="details-heading" id="rsvp">RSVP</h3>
+        <p> WE CAN'T WAIT TO SEE YOU<BR>PLEASE REPLY BY MARCH 10 TH<BR>TO RSVP,PLEASE TEXT "HELLO" TO<BR>345-789-9877</p>
+        <!-- Include Embedded link of Google Form here in place of # -->
+        <!-- <iframe title="RSVP" src="" style="width:100%;" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+      </div>
+    </section>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script defer>
+      var scroll = new SmoothScroll('a[href*="#"]');
+      var rsvpButton = document.getElementById('rsvpButton')
+      rsvpButton.addEventListener('click',hideButton,false);
+
+      function hideButton() {
+        rsvpButton.style.display = 'none';
+      }   
+    </script>
+  </body>
+</html>
